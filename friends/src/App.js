@@ -24,9 +24,9 @@ class App extends Component {
           {this.state.friends.map(eachFriend => (
           <div className='container'>
             <div className="friendInfo">
-            <h2>Name: {eachFriend.name}</h2>
-            <h3>Age: {eachFriend.age}</h3>
-            <h5>Contact: {eachFriend.email}</h5>
+            <h2><name>Name:</name> {eachFriend.name}</h2>
+            <h3><age>Age:</age> {eachFriend.age}</h3>
+            <h5><contact>Contact:</contact> {eachFriend.email}</h5>
             </div>
           </div>
           ))}
